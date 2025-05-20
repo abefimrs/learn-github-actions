@@ -8,7 +8,7 @@ jobs:
   ububtu-environment-variabls:
     runs-on: ubuntu-latest
     steps:
-      - run: env
+      - run: echo "$JAVA_HOME_11_X64"
 
   windows-environment-variabls:
     runs-on: windows-latest
